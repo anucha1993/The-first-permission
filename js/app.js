@@ -67,6 +67,7 @@
   var groups=loadGroups();
   var groupView="easy";
   var groupSel=null;
+  var groupFilterInit=null;
   var geShowAll=false;
   var geMode="perms";
 
@@ -74,7 +75,9 @@
   var session=(window.Auth&&window.Auth.session())||null;
   function isIT(){return !!(session&&session.role==="it");}
   function isUser(){return !!(session&&session.role==="user");}
-  var ALLOWED_USER_VIEWS={form:1, review:1};
+  var ALLOWED_USER_VIEWS={form:1, review:1, groups:1, about:1};
+  var APP_VERSION = "1.05";
+  var APP_RELEASE_DATE = "2026-06-30";
 
   // ── review / history state ─────────────────────
   var reviews = loadReviews();
@@ -228,6 +231,7 @@
     else if(view==="auditlog")renderAuditLog();
     else if(view==="userperm")renderUserPerm();
     else if(view==="dashboard")renderDashboard();
+    else if(view==="about")renderAbout();
     else renderReport();
   }
   function applyRole(){
@@ -1079,11 +1083,13 @@
     var toggle='<div class="ge-toggle"><button id="vEasy" class="tg'+(groupView==="easy"?" on":"")+'">อ่านง่าย</button>'+
       '<button id="vMatrix" class="tg'+(groupView==="matrix"?" on":"")+'">ตารางเต็ม</button></div>';
     var printBtn=(g.cols.length&&groupView==="matrix")?'<button class="btn-ghost sm" id="grpPrint">พิมพ์ตาราง (แนวนอน)</button>':"";
+    var uploadBtnHTML = isIT()
+      ? '<button class="btn-ghost sm" id="grpUploadBtn">อัปโหลดไฟล์</button><input type="file" id="grpFile" accept=".xlsx,.xls,.csv" hidden>'
+      : '';
     var head=
       '<div class="importbar no-print"><div class="ib-text"><b>Permission group</b>'+
       '<span>'+(g.title?esc(g.title):"รายการกลุ่มสิทธิ์")+'</span></div>'+
-      '<div class="ib-btns">'+toggle+printBtn+'<button class="btn-ghost sm" id="grpUploadBtn">อัปโหลดไฟล์</button>'+
-      '<input type="file" id="grpFile" accept=".xlsx,.xls,.csv" hidden></div></div>'+
+      '<div class="ib-btns">'+toggle+printBtn+uploadBtnHTML+'</div></div>'+
       (g.at?'<div class="gs-info no-print">อัปเดตล่าสุด: '+fmtDateTime(g.at)+' · '+g.rows.length+' กลุ่ม · '+(mc?mc.sys.length:0)+' ระบบ</div>':"");
     var body;
     if(!g.cols.length){
@@ -1095,21 +1101,25 @@
     }else{
       var addBtn = isIT() ? '<button class="btn-primary sm" id="geAddGrp" type="button">+ เพิ่มกลุ่ม</button>' : '';
       body='<div class="grp-easy"><div class="ge-side">'+
-        '<div class="ge-sidebar-top"><input class="f-input" id="geq" placeholder="ค้นหากลุ่ม…">'+addBtn+'</div>'+
+        '<div class="ge-sidebar-top"><input class="f-input" id="geq" placeholder="ค้นหากลุ่ม…" value="'+esc(groupFilterInit||"")+'">'+addBtn+'</div>'+
         '<div class="ge-list" id="geList"></div></div><div class="ge-detail" id="geDetail"></div></div>';
     }
     content.innerHTML=head+body;
     if(groupView==="matrix"&&g.cols.length)document.getElementById("grpTable").innerHTML=grpTableHTML(g.cols,g.rows,"");
     if(groupView==="easy"&&g.cols.length){
-      document.getElementById("geList").innerHTML=easyListHTML(g.rows,mc,"",groupSel);
+      document.getElementById("geList").innerHTML=easyListHTML(g.rows,mc,groupFilterInit||"",groupSel);
       document.getElementById("geDetail").innerHTML=easyDetailHTML(findRow(groupSel,mc),mc);
+      groupFilterInit=null;
     }
     wireGroups();
   }
   function wireGroups(){
     var gf=document.getElementById("grpFile");
-    document.getElementById("grpUploadBtn").onclick=function(){gf.click();};
-    gf.onchange=function(e){var f=e.target.files[0];if(f)uploadGroupFile(f);e.target.value="";};
+    var grpUpBtn=document.getElementById("grpUploadBtn");
+    if(grpUpBtn && gf){
+      grpUpBtn.onclick=function(){gf.click();};
+      gf.onchange=function(e){var f=e.target.files[0];if(f)uploadGroupFile(f);e.target.value="";};
+    }
     var ve=document.getElementById("vEasy"),vm=document.getElementById("vMatrix");
     if(ve)ve.onclick=function(){groupView="easy";render();};
     if(vm)vm.onclick=function(){groupView="matrix";render();};
@@ -1173,6 +1183,7 @@
             return;
           }
           var cb=e.target.closest('input[type="checkbox"]');if(!cb)return;
+          if(!isIT()){ cb.checked = !cb.checked; toast("เฉพาะผู้ดูแล (IT) เท่านั้นที่แก้ไขได้"); return; }
           var tr=cb.closest("tr[data-sys]");if(!tr)return;
           var row=findRow(groupSel,mc);if(!row)return;
           var sys=tr.getAttribute("data-sys"),lvl=cb.getAttribute("data-level");
@@ -1406,7 +1417,7 @@
     view="groups";groupView="easy";
     var mc=groups.cols.length?groupCols(groups.cols):null;
     var canon=resolveGroupName(name,mc);
-    if(canon)groupSel=canon;
+    if(canon){groupSel=canon;groupFilterInit=canon;}
     else toast("ไม่พบกลุ่ม “"+name+"” ใน Permission group");
     render();
   }
@@ -1875,6 +1886,28 @@
 
     var canEdit = (role==="user" && rv.status==="pending" && session.username===rv.assignedTo.username);
 
+    // Summary helper: button → opens modal with full F/W/R list
+    function groupAccessSummary(name){
+      if(!groups || !groups.cols || !groups.cols.length) return "";
+      var mc = groupCols(groups.cols);
+      var canon = resolveGroupName(name, mc);
+      var row = canon ? findRow(canon, mc) : null;
+      if(!row) return '';
+      var buckets = {F:[], W:[], R:[]};
+      (mc.sys||[]).forEach(function(c){
+        var v = String(row[c]||"").trim().toUpperCase();
+        if(v==="F" || v==="W" || v==="R") buckets[v].push(c);
+      });
+      var total = buckets.F.length + buckets.W.length + buckets.R.length;
+      if(!total) return '';
+      var chips = '';
+      if(buckets.F.length) chips += '<span class="rv-acc rv-acc-F" title="Full">F '+buckets.F.length+'</span>';
+      if(buckets.W.length) chips += '<span class="rv-acc rv-acc-W" title="Write">W '+buckets.W.length+'</span>';
+      if(buckets.R.length) chips += '<span class="rv-acc rv-acc-R" title="Read">R '+buckets.R.length+'</span>';
+      return '<div class="rv-perm-detail"><button type="button" class="rv-perm-show-btn" data-perm-detail="'+esc(canon)+'">'+
+        chips+'<span class="rv-perm-show-label">ดูรายละเอียดสิทธิ์ ('+total+' ระบบ)</span></button></div>';
+    }
+
     var detailHTML = snapRows.map(function(r,i){
       var did = r.p.requestId+"::"+r.idx;
       var actionVal = r.d.action || "keep";
@@ -1907,7 +1940,7 @@
       return '<tr>'+
         '<td class="u-no">'+(i+1)+'</td>'+
         '<td><b>'+esc(r.p.requesterName)+'</b><div class="rv-sub">#'+pad4(r.p.requestNo)+(r.p.department?' · '+esc(r.p.department):'')+'</div></td>'+
-        '<td>'+esc(r.it.permission)+'</td>'+
+        '<td><a href="#" class="rv-perm-link" data-perm="'+esc(r.it.permission)+'" title="คลิกเพื่อดูรายละเอียดสิทธิ์"><b>'+esc(r.it.permission)+'</b></a>'+groupAccessSummary(r.it.permission)+'</td>'+
         '<td>'+esc(r.it.action)+'</td>'+
         '<td>'+esc(r.it.date||"—")+'</td>'+
         '<td>'+actionCell+'</td>'+
@@ -1954,6 +1987,22 @@
       '</section>';
 
     document.getElementById("rvBack").onclick=function(){ reviewSel=null; render(); };
+
+    Array.prototype.forEach.call(content.querySelectorAll(".rv-perm-link"), function(a){
+      a.addEventListener("click", function(e){
+        e.preventDefault();
+        var n = a.getAttribute("data-perm")||"";
+        if(n) gotoGroup(n);
+      });
+    });
+
+    Array.prototype.forEach.call(content.querySelectorAll(".rv-perm-show-btn"), function(b){
+      b.addEventListener("click", function(e){
+        e.preventDefault();
+        var n = b.getAttribute("data-perm-detail")||"";
+        if(n) openPermDetailModal(n);
+      });
+    });
 
     if(canEdit){
       Array.prototype.forEach.call(content.querySelectorAll(".rv-seg"), function(seg){
@@ -2106,6 +2155,188 @@
     ov.classList.add("show");
     document.getElementById("histClose").onclick = function(){ ov.classList.remove("show"); };
     ov.addEventListener("click", function(e){ if(e.target===ov) ov.classList.remove("show"); });
+  }
+
+  function openPermDetailModal(name){
+    var ov = document.getElementById("permDetailModal");
+    if(!ov){
+      ov = document.createElement("div");
+      ov.id="permDetailModal"; ov.className="modal no-print";
+      document.body.appendChild(ov);
+    }
+    var mc = (groups && groups.cols && groups.cols.length) ? groupCols(groups.cols) : null;
+    var canon = mc ? resolveGroupName(name, mc) : null;
+    var row = (canon && mc) ? findRow(canon, mc) : null;
+    var bodyHTML;
+    if(!row){
+      bodyHTML = '<p class="empty">ไม่พบกลุ่ม "'+esc(name)+'" ในระบบ</p>';
+    } else {
+      var buckets = {F:[], W:[], R:[]};
+      (mc.sys||[]).forEach(function(c){
+        var v = String(row[c]||"").trim().toUpperCase();
+        if(v==="F" || v==="W" || v==="R") buckets[v].push(c);
+      });
+      var total = buckets.F.length + buckets.W.length + buckets.R.length;
+      function section(key, label){
+        var arr = buckets[key];
+        if(!arr.length) return '';
+        var lis = arr.map(function(s){return '<li>'+esc(s)+'</li>';}).join('');
+        return '<section class="pd-sec">'+
+          '<header class="pd-sec-head"><span class="rv-acc rv-acc-'+key+'">'+key+'</span><b>'+esc(label)+'</b><span class="pd-count">'+arr.length+' ระบบ</span></header>'+
+          '<ul class="pd-list">'+lis+'</ul>'+
+        '</section>';
+      }
+      bodyHTML = (total
+        ? section('F','Full — อ่าน/เขียน/ลบ') + section('W','Write — แก้ไข') + section('R','Read — อ่านอย่างเดียว')
+        : '<p class="empty">กลุ่มนี้ไม่มีสิทธิ์เข้าถึงระบบใด</p>');
+    }
+    ov.innerHTML =
+      '<div class="modal-box" style="max-width:680px">'+
+        '<div class="modal-bar"><div class="modal-title">สิทธิ์ของกลุ่ม: '+esc(canon||name)+'</div>'+
+          '<button class="modal-x" id="pdClose">✕</button></div>'+
+        '<div class="modal-body">'+bodyHTML+'</div>'+
+        '<div class="modal-foot"><button class="btn-ghost" id="pdGoto">เปิดในหน้า Permission group →</button>'+
+          '<button class="btn-primary" id="pdCloseBtn">ปิด</button></div>'+
+      '</div>';
+    ov.classList.add("show");
+    function close(){ ov.classList.remove("show"); }
+    document.getElementById("pdClose").onclick = close;
+    document.getElementById("pdCloseBtn").onclick = close;
+    document.getElementById("pdGoto").onclick = function(){ close(); gotoGroup(canon||name); };
+    ov.addEventListener("click", function(e){ if(e.target===ov) close(); });
+  }
+
+  // ── ABOUT (version + development timeline) ──────────────
+  var VERSION_TIMELINE = [
+    { v:"0.1.0", date:"2025-09-05", tag:"เริ่มโปรเจค", items:[
+      "วางโครงสร้างโปรเจค HTML/CSS/JS เริ่มต้น",
+      "ฟอร์มขอสิทธิ์ผู้ใช้ + รายการคำขอเบื้องต้น",
+      "เก็บข้อมูลด้วย LocalStorage"
+    ]},
+    { v:"0.2.0", date:"2025-09-25", tag:"Permission group", items:[
+      "นำเข้าตาราง Permission group จากไฟล์ Excel/CSV",
+      "มุมมอง 'อ่านง่าย' และ 'ตารางเต็ม'",
+      "แสดงสิทธิ์ F / W / R พร้อม legend"
+    ]},
+    { v:"0.3.0", date:"2025-10-20", tag:"จัดการผู้ใช้", items:[
+      "หน้า 'ตรวจสิทธิ์รายบุคคล' (ลำดับเวลาเหตุการณ์)",
+      "พิมพ์รายงานสำหรับผู้ใช้แต่ละคน",
+      "เพิ่มหมวดหมู่ในกลุ่ม + ค้นหากลุ่ม"
+    ]},
+    { v:"0.4.0", date:"2025-11-15", tag:"Audit & ประวัติ", items:[
+      "ประวัติการแก้ไขสิทธิ์ (history modal)",
+      "Audit log ระบบ บันทึกทุก action",
+      "รายงาน Audit แบบตาราง + พิมพ์"
+    ]},
+    { v:"0.5.0", date:"2025-12-10", tag:"ระบบทบทวนสิทธิ์", items:[
+      "สร้างรอบทบทวนสิทธิ์ (review cycle)",
+      "Snapshot สิทธิ์ ณ วันที่สร้าง",
+      "ผู้ทบทวนเลือก keep / remove / change ได้",
+      "ปุ่ม 'ปรับปรุงสิทธิ์ตามผลทบทวน' สำหรับ IT"
+    ]},
+    { v:"0.6.0", date:"2026-01-20", tag:"Dashboard", items:[
+      "Dashboard สรุปสถิติคำขอ / ผู้ใช้ / กลุ่ม",
+      "กราฟแนวโน้มรายเดือน",
+      "ตัวกรองตามแผนก / ช่วงเวลา"
+    ]},
+    { v:"0.7.0", date:"2026-02-18", tag:"ย้ายฐานข้อมูลขึ้น Server", items:[
+      "เปลี่ยนจาก LocalStorage → SQLite (better-sqlite3)",
+      "Node.js + Express REST API (KV store)",
+      "ซิงค์ข้อมูลข้ามเครื่องผ่าน server"
+    ]},
+    { v:"0.8.0", date:"2026-03-25", tag:"Authentication", items:[
+      "ระบบ Login / Logout (bcrypt + session)",
+      "Role: IT (admin) / User (reviewer)",
+      "ล็อกบัญชี 30 วินาทีหากใส่รหัสผิด 5 ครั้ง"
+    ]},
+    { v:"0.9.0", date:"2026-04-22", tag:"Security hardening", items:[
+      "ACL ระดับ KV key (ป้องกัน user เขียนทับข้อมูลกลุ่ม)",
+      "Rate limit / CSRF protection",
+      "TRUST_PROXY config สำหรับ reverse proxy"
+    ]},
+    { v:"1.00", date:"2026-06-15", tag:"Production release", items:[
+      "Deploy ขึ้น Plesk + Phusion Passenger",
+      "Domain: permission.thefirstlabours.com",
+      "Seed default IT account อัตโนมัติ"
+    ]},
+    { v:"1.01", date:"2026-06-22", tag:"Backup ทั้งระบบ", items:[
+      "ปุ่ม 'สำรองข้อมูลทั้งระบบ' (ทุก KV + ผู้ใช้ + กลุ่ม)",
+      "ปุ่ม 'กู้คืนทั้งระบบ' รองรับไฟล์เก่าและไฟล์ใหม่"
+    ]},
+    { v:"1.02", date:"2026-06-26", tag:"UX สำหรับผู้ทบทวน", items:[
+      "แสดงสรุป F / W / R ใต้ชื่อกลุ่มในตารางทบทวน",
+      "ผู้ทบทวน (role=user) เข้าดู Permission group ได้แบบอ่านอย่างเดียว"
+    ]},
+    { v:"1.03", date:"2026-06-28", tag:"Navigation ระหว่างหน้า", items:[
+      "คลิกชื่อสิทธิ์ในตารางทบทวน → กระโดดไปดูกลุ่มนั้น",
+      "Auto-filter เฉพาะกลุ่มที่กดเข้าไป",
+      "Case-insensitive matching ชื่อกลุ่ม"
+    ]},
+    { v:"1.04", date:"2026-06-29", tag:"ปรับ Layout", items:[
+      "จัดเรียง badge F/W/R เป็นแถวแยกบรรทัด",
+      "ขนาด/ระยะห่างใน review table อ่านง่ายขึ้น"
+    ]},
+    { v:"1.05", date:"2026-06-30", tag:"Modal รายละเอียดสิทธิ์", items:[
+      "เพิ่มปุ่ม 'ดูรายละเอียดสิทธิ์' → Modal แสดงเป็น <li>",
+      "แบ่ง 3 section: Full / Write / Read",
+      "เพิ่มแท็บ About + Timeline การพัฒนา"
+    ]}
+  ];
+
+  function renderAbout(){
+    var latest = VERSION_TIMELINE[VERSION_TIMELINE.length-1];
+    var projectStart = VERSION_TIMELINE[0];
+    var totalReleases = VERSION_TIMELINE.length;
+
+    function fmtThai(d){
+      try { var dt = new Date(d); var th = ["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."];
+        return dt.getDate()+" "+th[dt.getMonth()]+" "+(dt.getFullYear()+543); } catch(e){ return d; }
+    }
+
+    var rows = VERSION_TIMELINE.slice().reverse().map(function(r,i){
+      var isLatest = (i===0);
+      var lis = r.items.map(function(x){ return '<li>'+esc(x)+'</li>'; }).join('');
+      return '<div class="ab-row'+(isLatest?' latest':'')+'">'+
+        '<div class="ab-dot"></div>'+
+        '<div class="ab-card">'+
+          '<div class="ab-head">'+
+            '<span class="ab-ver">v'+esc(r.v)+'</span>'+
+            (isLatest?'<span class="ab-current">เวอร์ชันปัจจุบัน</span>':'')+
+            '<span class="ab-date">'+esc(fmtThai(r.date))+'</span>'+
+          '</div>'+
+          '<div class="ab-tag">'+esc(r.tag)+'</div>'+
+          '<ul class="ab-list">'+lis+'</ul>'+
+        '</div>'+
+      '</div>';
+    }).join('');
+
+    content.innerHTML =
+      '<section class="card">'+
+        '<div class="ab-hero">'+
+          '<div class="ab-hero-left">'+
+            '<div class="ab-logo">P</div>'+
+            '<div>'+
+              '<h2 class="ab-title">ระบบจัดการสิทธิ์ผู้ใช้</h2>'+
+              '<p class="ab-sub">Permission Management &amp; Review System</p>'+
+            '</div>'+
+          '</div>'+
+          '<div class="ab-hero-right">'+
+            '<div class="ab-badge-v">v'+esc(APP_VERSION)+'</div>'+
+            '<div class="ab-meta">ออกใช้: '+esc(fmtThai(latest.date))+'</div>'+
+          '</div>'+
+        '</div>'+
+        '<div class="ab-stats">'+
+          '<div class="ab-stat"><div class="ab-stat-v">'+esc(fmtThai(projectStart.date))+'</div><div class="ab-stat-l">เริ่มโปรเจค</div></div>'+
+          '<div class="ab-stat"><div class="ab-stat-v">'+totalReleases+'</div><div class="ab-stat-l">เวอร์ชัน</div></div>'+
+          '<div class="ab-stat"><div class="ab-stat-v">'+esc(fmtThai(latest.date))+'</div><div class="ab-stat-l">อัปเดตล่าสุด</div></div>'+
+        '</div>'+
+        '<h3 class="ab-h3">Timeline การพัฒนา</h3>'+
+        '<div class="ab-timeline">'+rows+'</div>'+
+        '<div class="ab-foot">'+
+          '<div>© 2025–'+(new Date().getFullYear())+' The First Good Man Group Co., Ltd.</div>'+
+          '<div>Designed &amp; developed by IT SUPPORT</div>'+
+        '</div>'+
+      '</section>';
   }
 
   // ── DASHBOARD (analytics overview) ─────────────────────
