@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thefirst Permission V1</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="masthead no-print">
+  <div class="crest">AC</div>
+  <div>
+    <div class="m-title">Thefirst Permission V1</div>
+    <div class="m-sub">ระบบจัดการสิทธิ์การใช้งานระบบสารสนเทศ · Access Permission System</div>
+  </div>
+  <div class="m-user" id="mUser"></div>
+</header>
+<nav class="tabs no-print" id="tabs">
+  <button class="tab" data-view="dashboard">Dashboard</button>
+  <button class="tab" data-view="groups">Permission group <span class="count" id="cGrp">0</span></button>
+  <button class="tab" data-view="form" id="tabForm">คำขอใหม่</button>
+  <button class="tab" data-view="list">รายการคำขอ <span class="count" id="cReq">0</span></button>
+  <button class="tab" data-view="userperm">ตรวจสิทธิ์รายบุคคล <span class="count" id="cUp">0</span></button>
+  <button class="tab" data-view="report">รายงาน Audit <span class="count" id="cRow">0</span></button>
+  <button class="tab" data-view="review">ทบทวนสิทธิ์ <span class="count" id="cRev">0</span></button>
+  <button class="tab" data-view="users">จัดการผู้ใช้ <span class="count" id="cUsr">0</span></button>
+  <button class="tab" data-view="auditlog">Audit Log ระบบ <span class="count" id="cAud">0</span></button>
+</nav>
+<main class="content" id="content"></main>
+<footer class="footer no-print">
+  <div class="f-copy">© 2025  The First Good Man Group Co., Ltd. All rights reserved | Designed by IT SUPPORT</div>
+  <div class="f-tools">
+    <span class="f-note" id="storeNote">ข้อมูลถูกเก็บไว้ที่ฐานข้อมูล SQLite บน server</span>
+    <a id="backupBtn">สำรองข้อมูล (.json)</a>
+    <a id="restoreBtn">กู้คืนจากไฟล์สำรอง</a>
+    <input type="file" id="restoreFile" accept=".json" hidden>
+  </div>
+</footer>
+<div class="toast" id="toast"></div>
+
+<div id="previewOverlay" class="overlay no-print">
+  <div class="ov-bar">
+    <div class="ov-title">ตัวอย่างรายงาน (Preview)</div>
+    <div class="ov-actions">
+      <button class="btn-ghost sm" id="pvPrint">พิมพ์ / บันทึก PDF</button>
+      <button class="btn-primary sm" id="pvClose">ปิด</button>
+    </div>
+  </div>
+  <div class="ov-scroll"><div class="ov-page" id="pvPage"></div></div>
+</div>
+
+<div id="personModal" class="modal no-print">
+  <div class="modal-box">
+    <div class="modal-bar"><div class="modal-title" id="pmTitle">ผู้ใช้</div><button class="modal-x" id="pmClose">✕</button></div>
+    <div class="modal-body" id="pmBody"></div>
+  </div>
+</div>
+
+<div id="loginOverlay" class="login-ov"></div>
+
+<script src="js/xlsx.min.js"></script>
+<!-- store-bootstrap loads data from server (SQLite), shims localStorage, then injects auth.js + app.js -->
+<script src="js/store-bootstrap.js"></script>
+</body>
+</html>

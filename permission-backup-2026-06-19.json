@@ -1,0 +1,3590 @@
+[
+  {
+    "id": "req_1781852169801_162",
+    "requesterName": "ธณัศนันตร์ สิริสกุลกัณหา",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG085",
+    "adName": "Thanatnan.Si",
+    "department": "ประสานงานขาย",
+    "employeeCode": "6828194",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2025-10-07"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.801Z",
+    "imported": true,
+    "no": 163
+  },
+  {
+    "id": "req_1781852169801_161",
+    "requesterName": "รัตนา จิตรสวัสดิ์",
+    "nickname": "มาร์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG178",
+    "adName": "Ratna.Ch",
+    "department": "สรรหา",
+    "employeeCode": "6810007",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "remove",
+        "date": "2025-10-08"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.801Z",
+    "imported": true,
+    "no": 162
+  },
+  {
+    "id": "req_1781852169801_160",
+    "requesterName": "ภคมน  ติยะเมธา",
+    "nickname": "เฟียต",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG029",
+    "adName": "Phakhamon.Ti",
+    "department": "เอกสาร",
+    "employeeCode": "1030824",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2025-10-17"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.801Z",
+    "imported": true,
+    "no": 161
+  },
+  {
+    "id": "req_1781852169801_159",
+    "requesterName": "กนกเรขา เก็มกาแมน",
+    "nickname": "เปิ้ล",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG099",
+    "adName": "Kanokrekha.Ke",
+    "department": "ประสานงานต่างประเทศ(จีน)",
+    "employeeCode": "6809026",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2025-10-19"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.801Z",
+    "imported": true,
+    "no": 160
+  },
+  {
+    "id": "req_1781852169801_158",
+    "requesterName": "สุปรียา  หนูมูล",
+    "nickname": "เจี๊ยบ",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG132",
+    "adName": "Supriya.Nu",
+    "department": "เอกสาร",
+    "employeeCode": "1000504",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2025-10-19"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.801Z",
+    "imported": true,
+    "no": 159
+  },
+  {
+    "id": "req_1781852169801_157",
+    "requesterName": "Saeli Naphatson",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG016",
+    "adName": "Saeli.Na",
+    "department": "เอกสาร",
+    "employeeCode": "1090996",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2025-10-19"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.801Z",
+    "imported": true,
+    "no": 158
+  },
+  {
+    "id": "req_1781852169801_156",
+    "requesterName": "พรรษา  ใจชอบ",
+    "nickname": "วันใหม่",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG130",
+    "adName": "Phasa.Ch",
+    "department": "บัญชี-ซับ",
+    "employeeCode": "6805006",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "remove",
+        "date": "2025-10-20"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.801Z",
+    "imported": true,
+    "no": 157
+  },
+  {
+    "id": "req_1781852169801_155",
+    "requesterName": "สุพรรณิการ์  ปล้องอ้วน",
+    "nickname": "ฟ้า",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG161",
+    "adName": "Supanika.Pl",
+    "department": "บัญชี-ซับ",
+    "employeeCode": "6808039",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "redefine",
+        "date": "2025-10-20"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.801Z",
+    "imported": true,
+    "no": 156
+  },
+  {
+    "id": "req_1781852169801_154",
+    "requesterName": "อุทุมพร  โพธิ์พิทักษ์",
+    "nickname": "บี",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG159",
+    "adName": "Uthumpn.Ph",
+    "department": "บุคคล",
+    "employeeCode": "6804009",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "remove",
+        "date": "2025-10-28"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.801Z",
+    "imported": true,
+    "no": 155
+  },
+  {
+    "id": "req_1781852169801_153",
+    "requesterName": "สุภาพร เกณร์สาคู",
+    "nickname": "เจี๊ยบ",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG172",
+    "adName": "Suphaphon.Ke",
+    "department": "บุคคล",
+    "employeeCode": "6808012",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "remove",
+        "date": "2025-11-04"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.801Z",
+    "imported": true,
+    "no": 154
+  },
+  {
+    "id": "req_1781852169801_152",
+    "requesterName": "อารยา ศรีวงษา",
+    "nickname": "แบม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG046",
+    "adName": "Arya.Sr",
+    "department": "ประสานงานขาย",
+    "employeeCode": "6809006",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2025-11-12"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.801Z",
+    "imported": true,
+    "no": 153
+  },
+  {
+    "id": "req_1781852169801_151",
+    "requesterName": "ณิชกานต์  วีรพัฒนาสุวรรณ",
+    "nickname": "ซีต้า",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG074",
+    "adName": "Nitkan.Wi",
+    "department": "บัญชี",
+    "employeeCode": "6807008",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acc_staff",
+        "action": "remove",
+        "date": "2025-11-12"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.801Z",
+    "imported": true,
+    "no": 152
+  },
+  {
+    "id": "req_1781852169801_150",
+    "requesterName": "นิพล คงคารัตน์",
+    "nickname": "หนึ่ง",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG100",
+    "adName": "Nipon.Ko",
+    "department": "บุคคล",
+    "employeeCode": "1000227",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "redefine",
+        "date": "2025-11-26"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.801Z",
+    "imported": true,
+    "no": 151
+  },
+  {
+    "id": "req_1781852169801_149",
+    "requesterName": "สุนันทา จันทะคำมา",
+    "nickname": "นั้นท์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG118",
+    "adName": "Sunantha.Ch",
+    "department": "บุคคล",
+    "employeeCode": "6808009",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "remove",
+        "date": "2025-11-26"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.801Z",
+    "imported": true,
+    "no": 150
+  },
+  {
+    "id": "req_1781852169800_148",
+    "requesterName": "Krajangkitchomchit Siriwan",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG031",
+    "adName": "Krajangkitchomchit.Si",
+    "department": "บัญชี-ซับ",
+    "employeeCode": "1086091",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "remove",
+        "date": "2025-11-26"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 149
+  },
+  {
+    "id": "req_1781852169800_147",
+    "requesterName": "เสาวคนธ์  วัฒนเดช",
+    "nickname": "ดาว",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG129",
+    "adName": "Seaokn.Wa",
+    "department": "บัญชี-ซับ",
+    "employeeCode": "6804001",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "remove",
+        "date": "2025-11-26"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 148
+  },
+  {
+    "id": "req_1781852169800_146",
+    "requesterName": "อดิศร มังคลา",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG093",
+    "adName": "Ditn.Ma",
+    "department": "เอกสาร",
+    "employeeCode": "6811009",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2025-11-28"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 147
+  },
+  {
+    "id": "req_1781852169800_145",
+    "requesterName": "นิฐาวดี  น้อยมูสิก",
+    "nickname": "ฐา",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG065",
+    "adName": "Nithawadi.No",
+    "department": "จัดซื้อ",
+    "employeeCode": "6803011",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "pur_staff",
+        "action": "remove",
+        "date": "2025-12-01"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 146
+  },
+  {
+    "id": "req_1781852169800_144",
+    "requesterName": "วรารัตน์  เขียดเขียว",
+    "nickname": "ลี",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG089",
+    "adName": "Vararat.Ki",
+    "department": "จัดซื้อ",
+    "employeeCode": "1000538",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "pur_staff",
+        "action": "redefine",
+        "date": "2025-12-01"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 145
+  },
+  {
+    "id": "req_1781852169800_143",
+    "requesterName": "สุวิมล เหี้ยมเหิน",
+    "nickname": "แป้ง",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG044",
+    "adName": "Suwimn.Ia",
+    "department": "บัญชี-ซับ",
+    "employeeCode": "6811013",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "redefine",
+        "date": "2025-12-15"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 144
+  },
+  {
+    "id": "req_1781852169800_142",
+    "requesterName": "กิตติศักดิ์ ชนะนิล",
+    "nickname": "กิต",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG156",
+    "adName": "Kittisak.Ch",
+    "department": "บัญชี-ซับ",
+    "employeeCode": "6811011",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "redefine",
+        "date": "2025-12-15"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 143
+  },
+  {
+    "id": "req_1781852169800_141",
+    "requesterName": "ญาณิศา ภักดีศิริ",
+    "nickname": "วิว",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG096",
+    "adName": "Yanisa.Pa",
+    "department": "บัญชี-ซับ",
+    "employeeCode": "6810008",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "redefine",
+        "date": "2025-12-15"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 142
+  },
+  {
+    "id": "req_1781852169800_140",
+    "requesterName": "นาตยา จันทร์รูปงาม",
+    "nickname": "โบว์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG082",
+    "adName": "Nataya.Ja",
+    "department": "บัญชี-ซับ",
+    "employeeCode": "6812008",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "redefine",
+        "date": "2025-12-15"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 141
+  },
+  {
+    "id": "req_1781852169800_139",
+    "requesterName": "Tun Kyaw",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG168",
+    "adName": "Tun.Ky",
+    "department": "ประสานงานขาย",
+    "employeeCode": "1016613",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2025-12-22"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 140
+  },
+  {
+    "id": "req_1781852169800_138",
+    "requesterName": "สุภัสสร ทองธรรม",
+    "nickname": "นุ้ก",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG163",
+    "adName": "Supatsorn.Th",
+    "department": "บัญชี-ซับ",
+    "employeeCode": "6812007",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "redefine",
+        "date": "2025-12-22"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 139
+  },
+  {
+    "id": "req_1781852169800_137",
+    "requesterName": "Ainsawat Natthawat",
+    "nickname": "บอมบี้",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG141",
+    "adName": "Natthawut.Ai",
+    "department": "บัญชี-ซับ",
+    "employeeCode": "1059083",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "redefine",
+        "date": "2025-12-22"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 138
+  },
+  {
+    "id": "req_1781852169800_136",
+    "requesterName": "ปวีณอร ล้ำเลิศ",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG005",
+    "adName": "Pwinaon.La",
+    "department": "เอกสาร",
+    "employeeCode": "6812034",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2025-12-25"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 137
+  },
+  {
+    "id": "req_1781852169800_135",
+    "requesterName": "ดลยรัตน์  อังนนท์ตรี",
+    "nickname": "เบนซ์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG122",
+    "adName": "Donyrat.An",
+    "department": "ประสานงานต่างประเทศ(จีน)",
+    "employeeCode": "6807003",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-01-04"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 136
+  },
+  {
+    "id": "req_1781852169800_134",
+    "requesterName": "กัญญภา หมื่นราช",
+    "nickname": "หงษ์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG146",
+    "adName": "Kanyapha.Mu",
+    "department": "ประสานงานขาย",
+    "employeeCode": "6802009",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "redefine",
+        "date": "2026-01-05"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 135
+  },
+  {
+    "id": "req_1781852169800_133",
+    "requesterName": "วันวิสาข์  ศรีวิลัย",
+    "nickname": "มิเกล",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG183",
+    "adName": "Wanwisa.Sr",
+    "department": "เอกสาร",
+    "employeeCode": "6806009",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-01-05"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 134
+  },
+  {
+    "id": "req_1781852169800_132",
+    "requesterName": "Nang Mwe Hom",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG053",
+    "adName": "Nang.Ho",
+    "department": "ประสานงานต่างประเทศ(พม่า)",
+    "employeeCode": "6812025",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-01-13"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 133
+  },
+  {
+    "id": "req_1781852169800_131",
+    "requesterName": "กานติมา แจ้งสำฤทธิ์",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG199",
+    "adName": "Kantima.Ka",
+    "department": "เอกสาร",
+    "employeeCode": "6808045",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-01-15"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 132
+  },
+  {
+    "id": "req_1781852169800_130",
+    "requesterName": "จีราวรรณ  คัมภีรกิจ",
+    "nickname": "ทรายอี้",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG164",
+    "adName": "Chirawan.Kh",
+    "department": "เอกสาร",
+    "employeeCode": "6807007",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-01-15"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 131
+  },
+  {
+    "id": "req_1781852169800_129",
+    "requesterName": "โสภิชชา แสนคำ",
+    "nickname": "มายด์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG126",
+    "adName": "Sophitcha.Sa",
+    "department": "เอกสาร",
+    "employeeCode": "1000423",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-01-15"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 130
+  },
+  {
+    "id": "req_1781852169799_128",
+    "requesterName": "ศิริเพ็ญ จันทา",
+    "nickname": "แอน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG145",
+    "adName": "Siriphen.Ch",
+    "department": "เอกสาร",
+    "employeeCode": "1000363",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-01-15"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.800Z",
+    "imported": true,
+    "no": 129
+  },
+  {
+    "id": "req_1781852169799_127",
+    "requesterName": "Lujit Suthicha",
+    "nickname": "แบมบู",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG045",
+    "adName": "Suthicha.Lu",
+    "department": "ประสานงานขาย",
+    "employeeCode": "6826018",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "redefine",
+        "date": "2026-01-19"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 128
+  },
+  {
+    "id": "req_1781852169799_126",
+    "requesterName": "อรัญญา จำนงค์",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG179",
+    "adName": "Ranya.Ch",
+    "department": "บุคคล",
+    "employeeCode": "6809036",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "remove",
+        "date": "2026-02-02"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 127
+  },
+  {
+    "id": "req_1781852169799_125",
+    "requesterName": "ปารณีย์ ชัยนันต์ธนากูล",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG113",
+    "adName": "Panni.Ch",
+    "department": "ประสานงานขาย",
+    "employeeCode": "6802007",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-02-02"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 126
+  },
+  {
+    "id": "req_1781852169799_124",
+    "requesterName": "กนิษฐา เกลียวทอง",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG035",
+    "adName": "Kanittha.Ke",
+    "department": "เอกสาร",
+    "employeeCode": "1000444",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-02-05"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 125
+  },
+  {
+    "id": "req_1781852169799_123",
+    "requesterName": "มลิวรรณ  ราชจันทร์",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG171",
+    "adName": "Mliwan.Ra",
+    "department": "สรรหา",
+    "employeeCode": "6806005",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "remove",
+        "date": "2026-02-08"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 124
+  },
+  {
+    "id": "req_1781852169799_122",
+    "requesterName": "ปณิสรา  แซ่ฉา",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG024",
+    "adName": "Panitra.Sa",
+    "department": "สรรหา",
+    "employeeCode": "6804005",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "remove",
+        "date": "2026-02-08"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 123
+  },
+  {
+    "id": "req_1781852169799_121",
+    "requesterName": "อาทิตยา ปั้นวิลัย",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG150",
+    "adName": "Athitya.Pa",
+    "department": "เอกสาร",
+    "employeeCode": "6808038",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-02-08"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 122
+  },
+  {
+    "id": "req_1781852169799_120",
+    "requesterName": "วารุณี เมืองคง",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG011",
+    "adName": "Waruni.Mu",
+    "department": "สรรหา",
+    "employeeCode": "6801801",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "remove",
+        "date": "2026-02-08"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 121
+  },
+  {
+    "id": "req_1781852169799_119",
+    "requesterName": "วรพิชชา เสนะแสง",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG104",
+    "adName": "Wonphitcha.Se",
+    "department": "เอกสาร",
+    "employeeCode": "1000432",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-02-16"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 120
+  },
+  {
+    "id": "req_1781852169799_118",
+    "requesterName": "จันทนา อารีรอบ",
+    "nickname": "ต้นข้าว",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG057",
+    "adName": "Jantana.Ar",
+    "department": "บัญชี",
+    "employeeCode": "6902026",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acc_staff",
+        "action": "redefine",
+        "date": "2026-02-18"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 119
+  },
+  {
+    "id": "req_1781852169799_117",
+    "requesterName": "สุพัตรา โนนดี",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG040",
+    "adName": "Suphatra.No",
+    "department": "เอกสาร",
+    "employeeCode": "1000422",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-03-05"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 118
+  },
+  {
+    "id": "req_1781852169799_116",
+    "requesterName": "สิมาพร มาป้อง",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG158",
+    "adName": "Simaphon.Ma",
+    "department": "เอกสาร",
+    "employeeCode": "1000307",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-03-20"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 117
+  },
+  {
+    "id": "req_1781852169799_115",
+    "requesterName": "กนกวรรณ  สมใจรักษ์",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG153",
+    "adName": "Kanokwan.Sa",
+    "department": "เอกสาร",
+    "employeeCode": "6708006",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-03-20"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 116
+  },
+  {
+    "id": "req_1781852169799_114",
+    "requesterName": "ปทิตตา ศุภโกศล",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG060",
+    "adName": "Pthitta.Su",
+    "department": "บุคคล",
+    "employeeCode": "6901043",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "remove",
+        "date": "2026-03-20"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 115
+  },
+  {
+    "id": "req_1781852169799_113",
+    "requesterName": "ศรวณีย์  กองสมบูรณ์",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG023",
+    "adName": "Sruani.Ko",
+    "department": "ประสานงานขาย",
+    "employeeCode": "6707003",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-03-20"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 114
+  },
+  {
+    "id": "req_1781852169799_112",
+    "requesterName": "อารยา  แซ่หล่อ",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG134",
+    "adName": "Arya.Sa",
+    "department": "ประสานงานขาย",
+    "employeeCode": "6804008",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-03-20"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 113,
+    "updatedAt": "2026-06-19T06:58:03.439Z"
+  },
+  {
+    "id": "req_1781852169799_111",
+    "requesterName": "วรรณวิษา  บุญลาภ",
+    "nickname": "",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG103",
+    "adName": "Wanwisa.Bu",
+    "department": "ประสานงานขาย",
+    "employeeCode": "1000540",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-03-20"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 112
+  },
+  {
+    "id": "req_1781852169799_110",
+    "requesterName": "ลลิตา  แก้วมณี",
+    "nickname": "ละเอียด",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG144",
+    "adName": "Laiet.Ke",
+    "department": "ประสานงานขาย",
+    "employeeCode": "6803013",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-03-20"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.799Z",
+    "imported": true,
+    "no": 111
+  },
+  {
+    "id": "req_1781852169798_109",
+    "requesterName": "ไอลดา กองทรัพย์",
+    "nickname": "เจน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG191",
+    "adName": "Ailada.Ko",
+    "department": "จนท.ผู้ช่วยบัญชี",
+    "employeeCode": "6808036",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acc_staff",
+        "action": "remove",
+        "date": "2026-03-31"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 110
+  },
+  {
+    "id": "req_1781852169798_108",
+    "requesterName": "เศรษฐภรณ์ คำชั่ง",
+    "nickname": "สา",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG042",
+    "adName": "Setthaporn.Kh",
+    "department": "จนท.ISO",
+    "employeeCode": "6904015",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "iso_head",
+        "action": "add",
+        "date": "2026-03-31"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 109
+  },
+  {
+    "id": "req_1781852169798_107",
+    "requesterName": "กิตติญา สุขสะอาด",
+    "nickname": "แบม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG140",
+    "adName": "Kittiya.Su",
+    "department": "จนท.ธุรการบัญชี/อยุธยา",
+    "employeeCode": "6904010",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acc_staff",
+        "action": "remove",
+        "date": "2026-03-31"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 108
+  },
+  {
+    "id": "req_1781852169798_106",
+    "requesterName": "กานติมา อุทัยเรือง",
+    "nickname": "เบล",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG043",
+    "adName": "Kantima.Ut",
+    "department": "จนท.ประสานงานขาย/จีน",
+    "employeeCode": "6904009",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "add",
+        "date": "2026-03-31"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 107
+  },
+  {
+    "id": "req_1781852169798_105",
+    "requesterName": "ผกายวรรณ ยศศิริ",
+    "nickname": "ฝ้าย",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG111",
+    "adName": "Phakaiwan.Yo",
+    "department": "จนท.ฝ่ายบุคคล/สรรหาว่าจ้าง",
+    "employeeCode": "6904008",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "add",
+        "date": "2026-03-31"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 106
+  },
+  {
+    "id": "req_1781852169798_104",
+    "requesterName": "ปฐมาวดี จีนสายใจ",
+    "nickname": "อั้ม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG154",
+    "adName": "Potmawadi.Ch",
+    "department": "จนท.สรรหาซับไทย",
+    "employeeCode": "6904007",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "remove",
+        "date": "2026-03-31"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 105
+  },
+  {
+    "id": "req_1781852169798_103",
+    "requesterName": "อชิดารัตน์ โสภามี",
+    "nickname": "ลูกหว้า",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG125",
+    "adName": "Chidarat.So",
+    "department": "จนท.สรรหาซับไทย",
+    "employeeCode": "6904017",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "remove",
+        "date": "2026-04-01"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 104
+  },
+  {
+    "id": "req_1781852169798_102",
+    "requesterName": "ภาวลี สัมฤทธิ์",
+    "nickname": "หมิว",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG112",
+    "adName": "Phawli.Sa",
+    "department": "จนท.ประสานงานขาย/จีน",
+    "employeeCode": "6904016",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-04-01"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 103
+  },
+  {
+    "id": "req_1781852169798_101",
+    "requesterName": "ธันย์ชนก ตรีศาสตร์",
+    "nickname": "แนน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG139",
+    "adName": "Thanchanok.Tr",
+    "department": "จนท.ประสานงานขาย",
+    "employeeCode": "6903017",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-04-02"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 102
+  },
+  {
+    "id": "req_1781852169798_100",
+    "requesterName": "เสาวรส ลบแย้ม",
+    "nickname": "รส",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG137",
+    "adName": "Seaont.Lo",
+    "department": "จนท.บัญชี/ซับ",
+    "employeeCode": "6902030",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "remove",
+        "date": "2026-04-03"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 101
+  },
+  {
+    "id": "req_1781852169798_99",
+    "requesterName": "ณัติยา น้อมรวี",
+    "nickname": "บุ๋ม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG033",
+    "adName": "Natiya.No",
+    "department": "จนท.บัญชี/ซับ",
+    "employeeCode": "6902028",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "remove",
+        "date": "2026-04-03"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 100
+  },
+  {
+    "id": "req_1781852169798_98",
+    "requesterName": "ภัคจีรา แจ่มใส",
+    "nickname": "โอ๋",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG106",
+    "adName": "Phakchira.Ch",
+    "department": "จทน.บัญชี/รับ",
+    "employeeCode": "6902008",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acc_staff",
+        "action": "remove",
+        "date": "2026-04-03"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 99
+  },
+  {
+    "id": "req_1781852169798_97",
+    "requesterName": "ธวัลรัตน์ พัฒนเดชศุภานนท์",
+    "nickname": "ข้าวฟ่าง",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG147",
+    "adName": "Thwanrat.Ph",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6902048",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-04"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 98
+  },
+  {
+    "id": "req_1781852169798_96",
+    "requesterName": "ประวีณา จิตรจันทร์เกษม",
+    "nickname": "แอนท์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG184",
+    "adName": "Prawina.Ch",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6904024",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-05"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 97
+  },
+  {
+    "id": "req_1781852169798_95",
+    "requesterName": "มัลลิกา   เหลาเกตุ",
+    "nickname": "บีม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG117",
+    "adName": "Manlika.El",
+    "department": "จนท.ประสานงานขาย/รายย่อย",
+    "employeeCode": "6808051",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-04-09"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 96
+  },
+  {
+    "id": "req_1781852169798_94",
+    "requesterName": "ภัคธินันท์ สุทธิวรีย์พร",
+    "nickname": "หญิงเล็ก",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG028",
+    "adName": "Phakthinan.Su",
+    "department": "จนท.ธุรการเอกสาร",
+    "employeeCode": "6811019",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-10"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 95
+  },
+  {
+    "id": "req_1781852169798_93",
+    "requesterName": "สุภาภรณ์ คิดถาง",
+    "nickname": "ฝน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG198",
+    "adName": "Suphaphon.Kh",
+    "department": "จนท.เอกสาร Work-Visa",
+    "employeeCode": "6904035",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-04-15"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 94
+  },
+  {
+    "id": "req_1781852169798_92",
+    "requesterName": "พรนรินทร์ สุขกากิจ",
+    "nickname": "แจ๊ส",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG202",
+    "adName": "Pornnarin.Su",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6904034",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-04-15"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 93
+  },
+  {
+    "id": "req_1781852169798_91",
+    "requesterName": "จิดาภา ลอยเมฆ",
+    "nickname": "สายป่าน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG092",
+    "adName": "Chidapha.Lo",
+    "department": "จนท.เอกสาร Work-Visa",
+    "employeeCode": "6904033",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-15"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 92
+  },
+  {
+    "id": "req_1781852169798_90",
+    "requesterName": "มณิสรา บุญสอน",
+    "nickname": "เป้",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG194",
+    "adName": "Manisara.Bu",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6904031",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-04-15"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 91
+  },
+  {
+    "id": "req_1781852169798_89",
+    "requesterName": "พัชรา เปียฟู",
+    "nickname": "ชีชี",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG059",
+    "adName": "Phatra.Pi",
+    "department": "จนท.ประสานงานขาย/จีน",
+    "employeeCode": "6904038",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-04-16"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 90
+  },
+  {
+    "id": "req_1781852169798_88",
+    "requesterName": "อภิลักขิตกาล ภูมิพัฒน์",
+    "nickname": "นาย",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG101",
+    "adName": "Philakkhitkan.Ph",
+    "department": "จนท.เอกสารต่างด้าว",
+    "employeeCode": "6904029",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-18"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 89
+  },
+  {
+    "id": "req_1781852169798_87",
+    "requesterName": "ธมนวรรณ ลัดลอด",
+    "nickname": "เตย",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG102",
+    "adName": "Thomnoronn.La",
+    "department": "จนท.ประสานงานขาย",
+    "employeeCode": "6904047",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-04-19"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 88
+  },
+  {
+    "id": "req_1781852169798_86",
+    "requesterName": "อาภากร  คงมี",
+    "nickname": "ส้ม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG203",
+    "adName": "Aphakn.Kh",
+    "department": "จนท.เอกสารมติ/CI",
+    "employeeCode": "6904046",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-04-19"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 87
+  },
+  {
+    "id": "req_1781852169798_85",
+    "requesterName": "ชนิฎาภรณ์ แปงยะ",
+    "nickname": "เมษา",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG050",
+    "adName": "Chanidaporn.Pa",
+    "department": "จนท.ธุรการบัญชี",
+    "employeeCode": "6904045",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acc_staff",
+        "action": "add",
+        "date": "2026-04-19"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 86
+  },
+  {
+    "id": "req_1781852169798_84",
+    "requesterName": "นัฐฐินันท์ จันนอ",
+    "nickname": "ครีม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG216",
+    "adName": "Nattinan.Ja",
+    "department": "จนท.ธุรการบัญชี",
+    "employeeCode": "6904044",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acc_staff",
+        "action": "add",
+        "date": "2026-04-19"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 85
+  },
+  {
+    "id": "req_1781852169798_83",
+    "requesterName": "อาริสา คำมุงคุณ",
+    "nickname": "สา",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG134",
+    "adName": "Arisa.Kh",
+    "department": "จนท.เอกสารมติ/CI",
+    "employeeCode": "6904043",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-19"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.798Z",
+    "imported": true,
+    "no": 84
+  },
+  {
+    "id": "req_1781852169797_82",
+    "requesterName": "ฐานิกา เจริญศิลป์",
+    "nickname": "เอิร์น",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG210",
+    "adName": "Thanika.Ch",
+    "department": "จนท.ประสานงานขาย",
+    "employeeCode": "6904048",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-04-20"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 83
+  },
+  {
+    "id": "req_1781852169797_81",
+    "requesterName": "วริษฐา สุวรรณมะโน",
+    "nickname": "เฟิร์น",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG201",
+    "adName": "Risa.Su",
+    "department": "จนท.เอกสารมติ/CI",
+    "employeeCode": "6904051",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-04-21"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 82
+  },
+  {
+    "id": "req_1781852169797_80",
+    "requesterName": "ปัณฑารีย์ บุญมี",
+    "nickname": "แตงโม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG047",
+    "adName": "Panthari.Bu",
+    "department": "จนท.ประสานงานขาย",
+    "employeeCode": "6904036",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-04-22"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 81
+  },
+  {
+    "id": "req_1781852169797_79",
+    "requesterName": "นลินา คนชุม",
+    "nickname": "ไอซ์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG196",
+    "adName": "Nlina.Kh",
+    "department": "จนท.เอกสารต่างด้าว",
+    "employeeCode": "6904062",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-26"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 80
+  },
+  {
+    "id": "req_1781852169797_78",
+    "requesterName": "ปาริชาติ จ้อยนิล",
+    "nickname": "เมย์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG013",
+    "adName": "Parichati.Ch",
+    "department": "จนท.สรรหา/ซับไทย",
+    "employeeCode": "6904061",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "remove",
+        "date": "2026-04-26"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 79
+  },
+  {
+    "id": "req_1781852169797_77",
+    "requesterName": "สุภาลักษณ์ ธรรมโส",
+    "nickname": "พิ้งค์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG208",
+    "adName": "Suphalakt.Th",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6904060",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-26"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 78
+  },
+  {
+    "id": "req_1781852169797_76",
+    "requesterName": "ฎาฑพร ศึกษา",
+    "nickname": "เบนซ์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG155",
+    "adName": "Datpn.Su",
+    "department": "จนท.ประสานงานขาย/จีน",
+    "employeeCode": "6904058",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-04-26"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 77
+  },
+  {
+    "id": "req_1781852169797_75",
+    "requesterName": "ปัทมา วันทาพงษ์",
+    "nickname": "อาย",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG116",
+    "adName": "Patma.Wa",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6904056",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-04-26"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 76
+  },
+  {
+    "id": "req_1781852169797_74",
+    "requesterName": "เปรมฤดี สงวงษ์",
+    "nickname": "จ๋อมแจ๋ม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG097",
+    "adName": "Songwong.So",
+    "department": "จทน.แจ้งที่พัก",
+    "employeeCode": "6904063",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-27"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 75
+  },
+  {
+    "id": "req_1781852169797_73",
+    "requesterName": "หัทยา ศรีเทพ",
+    "nickname": "แคร์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG217",
+    "adName": "Atya.Sr",
+    "department": "จนท.ประสานงานขาย",
+    "employeeCode": "6904069",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-04-28"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 74
+  },
+  {
+    "id": "req_1781852169797_72",
+    "requesterName": "พรหมพร กลอนกลาง",
+    "nickname": "หญิง",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG018",
+    "adName": "Phrahomphon.Kl",
+    "department": "จนท.มติ/บัตรชมพู",
+    "employeeCode": "6904059",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-28"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 73
+  },
+  {
+    "id": "req_1781852169797_71",
+    "requesterName": "ชัชสรัญ นุกูลธรรม",
+    "nickname": "นิว",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG084",
+    "adName": "Chattran.Nu",
+    "department": "จนท.มติ/บัตรชมพู",
+    "employeeCode": "6903054",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-29"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 72
+  },
+  {
+    "id": "req_1781852169797_70",
+    "requesterName": "ชาติชาย มุ่งหมาย",
+    "nickname": "ตี๋",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG072",
+    "adName": "Chatichai.Mu",
+    "department": "จนท.บัญชีลูกหนี้",
+    "employeeCode": "6901022",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acc_staff",
+        "action": "remove",
+        "date": "2026-04-29"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 71
+  },
+  {
+    "id": "req_1781852169797_69",
+    "requesterName": "กรประภา พะมุลิลา",
+    "nickname": "ปาล์มมี่",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG120",
+    "adName": "Konprapha.Ph",
+    "department": "จนท.สรรหาซับไทย",
+    "employeeCode": "6801012",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "remove",
+        "date": "2026-04-29"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 70
+  },
+  {
+    "id": "req_1781852169797_68",
+    "requesterName": "ดวงสมร สีน้ำอ้อม",
+    "nickname": "รอด",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG007",
+    "adName": "Duangtmn.Si",
+    "department": "จนท.ประสานงานขาย",
+    "employeeCode": "1000396",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-04-29"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 69
+  },
+  {
+    "id": "req_1781852169797_67",
+    "requesterName": "อนิสา ฉิมพิทักษ์",
+    "nickname": "ยูนิฟ",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG131",
+    "adName": "Nisa.Ch",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6904057",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-29"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 68
+  },
+  {
+    "id": "req_1781852169797_66",
+    "requesterName": "เมทินี ดอนหลักคำ",
+    "nickname": "แอ๋ม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG039",
+    "adName": "Methini.Do",
+    "department": "จนท.แจ้งออก",
+    "employeeCode": "6904032",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-29"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 67
+  },
+  {
+    "id": "req_1781852169797_65",
+    "requesterName": "สายนที ชุ่มอินทร์",
+    "nickname": "เอิง",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG098",
+    "adName": "Sainathi.Ch",
+    "department": "จนท.มติ/บัตรชมพู",
+    "employeeCode": "6904006",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-29"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 66
+  },
+  {
+    "id": "req_1781852169797_64",
+    "requesterName": "จิรนันท์ มะลัยทอง",
+    "nickname": "บิว",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG056",
+    "adName": "Chinnan.Ma",
+    "department": "จนท.แจ้งที่พัก",
+    "employeeCode": "6902036",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-04-30"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 65
+  },
+  {
+    "id": "req_1781852169797_63",
+    "requesterName": "กชนิภา แก้วโลมา",
+    "nickname": "เอิน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG188",
+    "adName": "Kotchanipa.Ke",
+    "department": "จนท.ธุรการบัญชี",
+    "employeeCode": "6905008",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acc_staff",
+        "action": "add",
+        "date": "2026-05-01"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 64
+  },
+  {
+    "id": "req_1781852169797_62",
+    "requesterName": "นุชจรี ศักดิ์ศรี",
+    "nickname": "แอมี่",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG215",
+    "adName": "Nuchjaree.Sa",
+    "department": "จนท.มติ/ถ่ายบัตร",
+    "employeeCode": "6905006",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-05-01"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 63
+  },
+  {
+    "id": "req_1781852169797_61",
+    "requesterName": "ชลธิรา โพธิ์วัฒนชัย",
+    "nickname": "แพรวา",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG012",
+    "adName": "Chontira.Ph",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6905004",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-05-01"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 62
+  },
+  {
+    "id": "req_1781852169797_60",
+    "requesterName": "ภัครมัย เกิดเจริญ",
+    "nickname": "รีโมท",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG166",
+    "adName": "Phakrmai.Ko",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6905003",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-01"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 61
+  },
+  {
+    "id": "req_1781852169797_59",
+    "requesterName": "กังสดาล เปี่ยมปราโมทย์",
+    "nickname": "ต้า",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG063",
+    "adName": "Kangtdan.Pi",
+    "department": "จนท.ธุรการบัญชี",
+    "employeeCode": "6905012",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acc_staff",
+        "action": "add",
+        "date": "2026-05-03"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 60
+  },
+  {
+    "id": "req_1781852169797_58",
+    "requesterName": "สิดาพร ขำวงษ์",
+    "nickname": "น้ำ",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG058",
+    "adName": "Sidaphon.Kh",
+    "department": "จนท.ประสานงานขาย/จีน",
+    "employeeCode": "6905011",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-05-03"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 59
+  },
+  {
+    "id": "req_1781852169797_57",
+    "requesterName": "แพรนวล ลงยี่",
+    "nickname": "ลูกแพร",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG127",
+    "adName": "Phaennual.Lo",
+    "department": "จนท.ประสานงานขาย/จีน",
+    "employeeCode": "6905010",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "add",
+        "date": "2026-05-03"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 58
+  },
+  {
+    "id": "req_1781852169797_56",
+    "requesterName": "กรกนก  สีตัง",
+    "nickname": "โอ",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG015",
+    "adName": "Konkanok.Si",
+    "department": "จนท.ประสานงานขาย",
+    "employeeCode": "1000509",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-05-04"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 57
+  },
+  {
+    "id": "req_1781852169797_55",
+    "requesterName": "ลลิตา ฤทธิ์บุญ",
+    "nickname": "กิ๊ป",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG061",
+    "adName": "Llita.Ll",
+    "department": "จนท.เอกสาร จัดทำบัตรชมพู",
+    "employeeCode": "1000441",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-04"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 56
+  },
+  {
+    "id": "req_1781852169797_54",
+    "requesterName": "อรอนงค์ อุดทะบุญ",
+    "nickname": "กิ๊ก",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG207",
+    "adName": "Ornanong.Ut",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6905023",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-05-05"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 55
+  },
+  {
+    "id": "req_1781852169797_53",
+    "requesterName": "ธำรงลักษณ์ มานะการ",
+    "nickname": "ไอติม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG014",
+    "adName": "Thamnnglakt.Ma",
+    "department": "จนท.ประสานงานขาย",
+    "employeeCode": "6905022",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-05-05"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 54
+  },
+  {
+    "id": "req_1781852169796_52",
+    "requesterName": "ชาคริยา เจริญยิ่ง",
+    "nickname": "หวาน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG190",
+    "adName": "Chakhriya.Ch",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6904064",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-07"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.797Z",
+    "imported": true,
+    "no": 53
+  },
+  {
+    "id": "req_1781852169796_51",
+    "requesterName": "ปวีร์ชญาอร สมบัติใจดี",
+    "nickname": "ปวีร์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG109",
+    "adName": "Pwityan.Sa",
+    "department": "จนท.เอกสารต่างด้าว/บ้านบึง",
+    "employeeCode": "6905030",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-08"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 52
+  },
+  {
+    "id": "req_1781852169796_50",
+    "requesterName": "ธิดานันท์ สุขเกษม",
+    "nickname": "ฝน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG180",
+    "adName": "Thidanan.Su",
+    "department": "จนท.เอกสารต่างด้าว/บ้านบึง",
+    "employeeCode": "6905029",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-08"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 51
+  },
+  {
+    "id": "req_1781852169796_49",
+    "requesterName": "ปิยะธิดา ภู่ระหงษ์",
+    "nickname": "โซดา",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG209",
+    "adName": "Piyathida.Pu",
+    "department": "จนท.เอกสารแจ้งเข้า",
+    "employeeCode": "6905036",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-05-10"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 50
+  },
+  {
+    "id": "req_1781852169796_48",
+    "requesterName": "เอมมิกา ราชคำ",
+    "nickname": "น้อง",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG049",
+    "adName": "Emmika.Ra",
+    "department": "จนท.เอกสารต่างด้าว/ผลโรค",
+    "employeeCode": "6905034",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-10"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 49
+  },
+  {
+    "id": "req_1781852169796_47",
+    "requesterName": "สุดารัตน์ ตรีภัทรรังษิกุล",
+    "nickname": "จูน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG114",
+    "adName": "Sudarat.Tr",
+    "department": "จนท.เอกสารต่างด้าว/มติ",
+    "employeeCode": "6905033",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-10"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 48
+  },
+  {
+    "id": "req_1781852169796_46",
+    "requesterName": "รัตนากร สรสมศักดิ์",
+    "nickname": "ทราย",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG206",
+    "adName": "Rattanakorn.So",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6905032",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-05-10"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 47
+  },
+  {
+    "id": "req_1781852169796_45",
+    "requesterName": "นิติยา เบิกบาน",
+    "nickname": "แอน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG170",
+    "adName": "Nitiya.Bo",
+    "department": "จนท.ประสานงานขาย",
+    "employeeCode": "6904055",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-05-10"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 46
+  },
+  {
+    "id": "req_1781852169796_44",
+    "requesterName": "อรพรรณ  คงดำ",
+    "nickname": "ข้าวหอม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG110",
+    "adName": "Onphan.Kh",
+    "department": "ผู้จัดการ ฝ่ายการตลาดจีน",
+    "employeeCode": "6708010",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-05-11"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 45
+  },
+  {
+    "id": "req_1781852169796_43",
+    "requesterName": "ศิรินญา แพขุนทด",
+    "nickname": "เอิน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG186",
+    "adName": "Sirinya.Ph",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6903005",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-12"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 44
+  },
+  {
+    "id": "req_1781852169796_42",
+    "requesterName": "ปิยนุช จันทร์วงค์",
+    "nickname": "ต้นอ้อ",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG038",
+    "adName": "Piyanut.Ch",
+    "department": "จนท.ประสานงานขาย",
+    "employeeCode": "6905040",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "add",
+        "date": "2026-05-12"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 43
+  },
+  {
+    "id": "req_1781852169796_41",
+    "requesterName": "คูณเอื้อง ตานวล",
+    "nickname": "หมิว",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG052",
+    "adName": "Khunueang.Ta",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6904050",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-12"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 42
+  },
+  {
+    "id": "req_1781852169796_40",
+    "requesterName": "หทัยภัทร กาฬภักดี",
+    "nickname": "กิ๊ก",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG108",
+    "adName": "Hathaipat.Ka",
+    "department": "จนท.บัญชี/ซับ",
+    "employeeCode": "6905041",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "add",
+        "date": "2026-05-13"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 41
+  },
+  {
+    "id": "req_1781852169796_39",
+    "requesterName": "วัทนวิภา พุทธหล้า",
+    "nickname": "แจน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG002",
+    "adName": "Watnwipha.Ph",
+    "department": "จนท.มติ/บัตรชมพู",
+    "employeeCode": "6905005",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-13"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 40
+  },
+  {
+    "id": "req_1781852169796_38",
+    "requesterName": "นรนุช ผลาผล",
+    "nickname": "อาย",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG095",
+    "adName": "Nonnut.Ph",
+    "department": "จนท.บัญชี/ซับ",
+    "employeeCode": "6904052",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "remove",
+        "date": "2026-05-13"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 39,
+    "updatedAt": "2026-06-19T06:57:54.192Z"
+  },
+  {
+    "id": "req_1781852169796_37",
+    "requesterName": "อณัศยา นันตะวัน",
+    "nickname": "แป๋ว",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG025",
+    "adName": "Anatsaya.Na",
+    "department": "จนท.เอกสารแจ้งออก",
+    "employeeCode": "6905048",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-05-14"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 38
+  },
+  {
+    "id": "req_1781852169796_36",
+    "requesterName": "วิภา ปัญญา",
+    "nickname": "เมย์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG225",
+    "adName": "Vipa.Pa",
+    "department": "จนท.บุคคล/Payroll",
+    "employeeCode": "6905047",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "add",
+        "date": "2026-05-14"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 37
+  },
+  {
+    "id": "req_1781852169796_35",
+    "requesterName": "NAING LIN HTET",
+    "nickname": "ล่ามตะวัน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG200",
+    "adName": "Naing.Ht",
+    "department": "จนท.ล่ามประจำ Office",
+    "employeeCode": "6905049",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "add",
+        "date": "2026-05-15"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 36
+  },
+  {
+    "id": "req_1781852169796_34",
+    "requesterName": "ศิริวรรณ  นาคประสิทธิ์",
+    "nickname": "นิด",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG143",
+    "adName": "Siriwan.Na",
+    "department": "จนท.บุคคล/Payroll",
+    "employeeCode": "6706002",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "hr_staff",
+        "action": "remove",
+        "date": "2026-05-17"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 35
+  },
+  {
+    "id": "req_1781852169796_33",
+    "requesterName": "วิจิตรา คำแพง",
+    "nickname": "บุ๋ม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG221",
+    "adName": "Wichitra.Kh",
+    "department": "จนท.เอกสาร Work-Visa",
+    "employeeCode": "6905064",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-05-17"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 34
+  },
+  {
+    "id": "req_1781852169796_32",
+    "requesterName": "บุษบา บุญใหญ่",
+    "nickname": "จิ้ง",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG006",
+    "adName": "Butba.Bu",
+    "department": "จนท.มติ/ถ่ายบัตร",
+    "employeeCode": "6905058",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-05-17"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.796Z",
+    "imported": true,
+    "no": 33
+  },
+  {
+    "id": "req_1781852169794_31",
+    "requesterName": "สิริยากร โพธินิล",
+    "nickname": "มายด์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG070",
+    "adName": "Siriyakon.Ph",
+    "department": "จนท.เอกสาร Work-Visa",
+    "employeeCode": "6905057",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-17"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.794Z",
+    "imported": true,
+    "no": 32
+  },
+  {
+    "id": "req_1781852169794_30",
+    "requesterName": "วารี วงศ์จันทร์",
+    "nickname": "วา",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG219",
+    "adName": "Waree.Wo",
+    "department": "จทน.บัญชี/รับ",
+    "employeeCode": "6905056",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acc_staff",
+        "action": "add",
+        "date": "2026-05-17"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.794Z",
+    "imported": true,
+    "no": 31
+  },
+  {
+    "id": "req_1781852169794_29",
+    "requesterName": "โสรยา บ้าง",
+    "nickname": "ทราย",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG088",
+    "adName": "Soraya.Ba",
+    "department": "จนท.บัญชี/ซับ",
+    "employeeCode": "6905055",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "add",
+        "date": "2026-05-17"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.794Z",
+    "imported": true,
+    "no": 30
+  },
+  {
+    "id": "req_1781852169794_28",
+    "requesterName": "อรอัมพา โตดีลัง",
+    "nickname": "ใบเตย",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG081",
+    "adName": "Onormpa.To",
+    "department": "จนท.บัญชี/ซับ",
+    "employeeCode": "6905054",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "add",
+        "date": "2026-05-17"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.794Z",
+    "imported": true,
+    "no": 29
+  },
+  {
+    "id": "req_1781852169791_27",
+    "requesterName": "สุมิตรา นาจาน",
+    "nickname": "เอมมี่",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG135",
+    "adName": "Sumitra.Na",
+    "department": "จนท.เปลี่ยนย้ายนายจ้าง",
+    "employeeCode": "6905042",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-18"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.791Z",
+    "imported": true,
+    "no": 28
+  },
+  {
+    "id": "req_1781852169791_26",
+    "requesterName": "พิยดา ศรีโกศล",
+    "nickname": "เอส",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG175",
+    "adName": "Phida.Sr",
+    "department": "จนท.เอกสารแจ้งเข้า",
+    "employeeCode": "6905072",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-24"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.791Z",
+    "imported": true,
+    "no": 27
+  },
+  {
+    "id": "req_1781852169791_25",
+    "requesterName": "รัษฎากร นิ่มน้อม",
+    "nickname": "ลูกน้ำ",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG189",
+    "adName": "Ratdakn.Ni",
+    "department": "จนท.เอกสาร คีย์ข้อมูล",
+    "employeeCode": "6905071",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-24"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.791Z",
+    "imported": true,
+    "no": 26
+  },
+  {
+    "id": "req_1781852169791_24",
+    "requesterName": "ณภัค แพงศรี",
+    "nickname": "แนน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG064",
+    "adName": "Nphak.Ph",
+    "department": "จนท.ประสานงานขาย",
+    "employeeCode": "6905074",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-05-25"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.791Z",
+    "imported": true,
+    "no": 25
+  },
+  {
+    "id": "req_1781852169791_23",
+    "requesterName": "กฤติยาภรณ์ แก้วสุขใส",
+    "nickname": "พลอย",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG197",
+    "adName": "Kritiyaphon.Ka",
+    "department": "จนท.เอกสารต่างด้าว/มติ",
+    "employeeCode": "6905007",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-26"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.791Z",
+    "imported": true,
+    "no": 24
+  },
+  {
+    "id": "req_1781852169791_22",
+    "requesterName": "AUNG MON",
+    "nickname": "ล่ามใหม่",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG160",
+    "adName": "Aung.Mo",
+    "department": "จนท.ปฎิบัติการ/ล่ามพม่า",
+    "employeeCode": "6903059",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-05-27"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.791Z",
+    "imported": true,
+    "no": 23
+  },
+  {
+    "id": "req_1781852169791_21",
+    "requesterName": "อาทิติยา ทองชมภู",
+    "nickname": "บิว",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG073",
+    "adName": "Athitiya.Th",
+    "department": "เจ้าหน้าที่เอกสารต่างด้าว",
+    "employeeCode": "6808016",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-29"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.791Z",
+    "imported": true,
+    "no": 22
+  },
+  {
+    "id": "req_1781852169791_20",
+    "requesterName": "อุไรวรรณ  ไชยศร",
+    "nickname": "ปีใหม่",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG069",
+    "adName": "Uraiwan.Ch",
+    "department": "จนท.บัญชี ซับ",
+    "employeeCode": "6805011",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "remove",
+        "date": "2026-05-29"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.791Z",
+    "imported": true,
+    "no": 21
+  },
+  {
+    "id": "req_1781852169791_19",
+    "requesterName": "รัญธิดา แซ่เอียง",
+    "nickname": "ดา",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG027",
+    "adName": "Ranthida.Sa",
+    "department": "จนท.ประสานงานขาย/จีน",
+    "employeeCode": "6811007",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-05-29"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.791Z",
+    "imported": true,
+    "no": 20
+  },
+  {
+    "id": "req_1781852169790_18",
+    "requesterName": "ธิดา แซ่เซา",
+    "nickname": "จิน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG009",
+    "adName": "Thida.Sa",
+    "department": "จนท.ประสานงานขาย/จีน",
+    "employeeCode": "6802008",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-05-29"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.790Z",
+    "imported": true,
+    "no": 19
+  },
+  {
+    "id": "req_1781852169790_17",
+    "requesterName": "เอสเธอร์ ติ้นซุย",
+    "nickname": "เจ้าขา",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG010",
+    "adName": "Etthoe.Ti",
+    "department": "จนท.มติ/บัตรชมพู",
+    "employeeCode": "6903024",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-05-29"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.790Z",
+    "imported": true,
+    "no": 18
+  },
+  {
+    "id": "req_1781852169790_16",
+    "requesterName": "วราภรณ์ จินโรจน์",
+    "nickname": "จ๋า",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG136",
+    "adName": "Wraphon.Ch",
+    "department": "จนท.บัญชี/ซับ",
+    "employeeCode": "6903035",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "remove",
+        "date": "2026-05-29"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.790Z",
+    "imported": true,
+    "no": 17
+  },
+  {
+    "id": "req_1781852169790_15",
+    "requesterName": "ณพงศ์ อินทะปัดถา",
+    "nickname": "หนุ่ม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG026",
+    "adName": "Nphong.In",
+    "department": "จนท.ประสานงานขาย/จีน",
+    "employeeCode": "6906008",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-05-31"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.790Z",
+    "imported": true,
+    "no": 16
+  },
+  {
+    "id": "req_1781852169790_14",
+    "requesterName": "จิรนันท์ บางโท",
+    "nickname": "อัย",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG173",
+    "adName": "Chinnan.Ba",
+    "department": "จนท.บัญชี/รับ",
+    "employeeCode": "6906007",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acc_staff",
+        "action": "remove",
+        "date": "2026-05-31"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.790Z",
+    "imported": true,
+    "no": 15
+  },
+  {
+    "id": "req_1781852169790_13",
+    "requesterName": "ศลิษา เจริญเตีย",
+    "nickname": "ษา",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG030",
+    "adName": "Slisa.Ch",
+    "department": "จนท.ประสานงานขาย/จีน",
+    "employeeCode": "6906006",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-05-31"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.790Z",
+    "imported": true,
+    "no": 14
+  },
+  {
+    "id": "req_1781852169790_12",
+    "requesterName": "นภาพร แซ่ย่าง",
+    "nickname": "เปิ้ล",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG041",
+    "adName": "Naphaphon.Sa",
+    "department": "จนท.ประสานงานขาย/จีน",
+    "employeeCode": "6906005",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-05-31"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.790Z",
+    "imported": true,
+    "no": 13
+  },
+  {
+    "id": "req_1781852169790_11",
+    "requesterName": "สร้อยสุนี ป้านภูมิ",
+    "nickname": "เกมส์",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG037",
+    "adName": "Soisunee.Pa",
+    "department": "จนท.มติ/บัตรชมพู",
+    "employeeCode": "6906004",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-05-31"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.790Z",
+    "imported": true,
+    "no": 12
+  },
+  {
+    "id": "req_1781852169790_10",
+    "requesterName": "ศุภกิจ แซ่ห่วง",
+    "nickname": "ตี๋",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG185",
+    "adName": "Supakit.Sa",
+    "department": "จนท.ประสานงานขาย/จีน",
+    "employeeCode": "6906003",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "add",
+        "date": "2026-05-31"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.790Z",
+    "imported": true,
+    "no": 11
+  },
+  {
+    "id": "req_1781852169789_9",
+    "requesterName": "กนกวรรณ ภู่เด่นชัย",
+    "nickname": "น้ำหวาน",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG071",
+    "adName": "Kanokwan.Ph",
+    "department": "จนท.เอกสาร Work-Visa",
+    "employeeCode": "6906016",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-06-03"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.790Z",
+    "imported": true,
+    "no": 10
+  },
+  {
+    "id": "req_1781852169789_8",
+    "requesterName": "สุทธิดา วะดีศิริศักดิ์",
+    "nickname": "ดรีม",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG087",
+    "adName": "Suthida.Wa",
+    "department": "จนท.บัญชี/ซับ",
+    "employeeCode": "6906025",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "acs_staff",
+        "action": "add",
+        "date": "2026-06-07"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.789Z",
+    "imported": true,
+    "no": 9
+  },
+  {
+    "id": "req_1781852169789_7",
+    "requesterName": "อารียา หลังจิ",
+    "nickname": "นา",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG076",
+    "adName": "Ariya.La",
+    "department": "จนท.เอกสาร Work-Visa",
+    "employeeCode": "6906031",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-06-08"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.789Z",
+    "imported": true,
+    "no": 8
+  },
+  {
+    "id": "req_1781852169789_6",
+    "requesterName": "นฤนาท อนุมาศ",
+    "nickname": "แนทตี้",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG181",
+    "adName": "Naruenat.An",
+    "department": "จนท.ประสานงานขาย",
+    "employeeCode": "6906029",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "add",
+        "date": "2026-06-08"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.789Z",
+    "imported": true,
+    "no": 7
+  },
+  {
+    "id": "req_1781852169789_5",
+    "requesterName": "เพ็ญพัฒน์ จันทร์ทอง",
+    "nickname": "บุ้งกี๋",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG167",
+    "adName": "Phenphat.Ch",
+    "department": "จนท.เอกสาร Work-Visa",
+    "employeeCode": "6906028",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-06-08"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.789Z",
+    "imported": true,
+    "no": 6
+  },
+  {
+    "id": "req_1781852169789_4",
+    "requesterName": "มินตรา ทุมสิทธิ์",
+    "nickname": "มินนี่",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG051",
+    "adName": "Mintra.Tu",
+    "department": "จนท.ประสานงานขาย",
+    "employeeCode": "6906034",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "add",
+        "date": "2026-06-09"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.789Z",
+    "imported": true,
+    "no": 5
+  },
+  {
+    "id": "req_1781852169788_3",
+    "requesterName": "เกริกไกร การีชิต",
+    "nickname": "เกริก",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG195",
+    "adName": "Kerikkrai.Ka",
+    "department": "จนท.เอกสาร Work-Visa",
+    "employeeCode": "6906039",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "add",
+        "date": "2026-06-14"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.788Z",
+    "imported": true,
+    "no": 4
+  },
+  {
+    "id": "req_1781852169787_2",
+    "requesterName": "NAW WAR EH DOH",
+    "nickname": "ล่ามวาวา",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG086",
+    "adName": "Naw.Do",
+    "department": "จนท.ล่าม2ภาษาประจำ Office",
+    "employeeCode": "6906038",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-06-14"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.788Z",
+    "imported": true,
+    "no": 3
+  },
+  {
+    "id": "req_1781852169787_1",
+    "requesterName": "เมขลา คงศรี",
+    "nickname": "รวงข้าว",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG008",
+    "adName": "Mekla.Kh",
+    "department": "จนท.เอกสาร Work-Visa",
+    "employeeCode": "6906037",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "doc_staff",
+        "action": "remove",
+        "date": "2026-06-14"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.787Z",
+    "imported": true,
+    "no": 2
+  },
+  {
+    "id": "req_1781852169787_0",
+    "requesterName": "ติ้งผิง เวยแม",
+    "nickname": "นุ้ย",
+    "position": "พนักงาน",
+    "userAD": "PC-TFG032",
+    "adName": "Tingphing.Wo",
+    "department": "จนท.การตลาด/จีน",
+    "employeeCode": "6906043",
+    "approverName": "ศุภณัฐ",
+    "newApprover": "",
+    "items": [
+      {
+        "permission": "sal_staff",
+        "action": "remove",
+        "date": "2026-06-15"
+      }
+    ],
+    "createdAt": "2026-06-19T06:56:09.787Z",
+    "imported": true,
+    "no": 1
+  }
+]
