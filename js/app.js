@@ -2827,6 +2827,59 @@
     rd.readAsText(f);e.target.value="";
   };
 
+  // ── full backup / restore (ครอบคลุมทุก KV: users, groups, requests, settings) ──
+  var backupAllBtn=document.getElementById("backupAllBtn");
+  if(backupAllBtn) backupAllBtn.onclick=function(){
+    if(!window.Store||!window.Store.fetch){ toast("ระบบยังไม่พร้อม"); return; }
+    window.Store.fetch("/api/kvs").then(function(r){ return r.json(); }).then(function(map){
+      var payload={ _meta:{ kind:"thefirst-permission-full-backup", version:1, exportedAt:new Date().toISOString() }, kvs:map };
+      var blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});
+      var url=URL.createObjectURL(blob),a=document.createElement("a");
+      a.href=url;a.download="permission-full-backup-"+todayISO()+".json";a.click();URL.revokeObjectURL(url);
+      var n=Object.keys(map||{}).length;
+      toast("สำรองทั้งระบบแล้ว ("+n+" รายการ)");
+    }).catch(function(err){ toast("สำรองไม่สำเร็จ: "+(err&&err.message||err)); });
+  };
+  var raf=document.getElementById("restoreAllFile");
+  var restoreAllBtn=document.getElementById("restoreAllBtn");
+  if(restoreAllBtn && raf){
+    restoreAllBtn.onclick=function(){ raf.click(); };
+    raf.onchange=function(e){
+      var f=e.target.files[0];if(!f)return;
+      var rd=new FileReader();
+      rd.onload=function(){
+        try{
+          var data=JSON.parse(rd.result);
+          var map=null;
+          if(data && data._meta && data._meta.kind==="thefirst-permission-full-backup" && data.kvs){ map=data.kvs; }
+          else if(data && typeof data==="object" && !Array.isArray(data)){ map=data; }
+          if(!map) throw new Error("รูปแบบไฟล์ไม่ใช่ full-backup");
+          var keys=Object.keys(map);
+          if(!keys.length) throw new Error("ไฟล์ว่าง");
+          if(!confirm("กู้คืนทั้งระบบ ("+keys.length+" KV)? ข้อมูลปัจจุบันจะถูกแทนที่ทั้งหมด")) return;
+          // sequential PUT to avoid burst
+          var i=0, ok=0, fail=0;
+          (function next(){
+            if(i>=keys.length){
+              toast("กู้คืนเสร็จ: สำเร็จ "+ok+", ล้มเหลว "+fail+" — กำลังโหลดใหม่");
+              setTimeout(function(){ location.reload(); }, 600);
+              return;
+            }
+            var k=keys[i++]; var entry=map[k];
+            var v=(entry && typeof entry==="object" && "value" in entry) ? entry.value : entry;
+            if(v==null) v="";
+            window.Store.fetch("/api/kv/"+encodeURIComponent(k),{
+              method:"PUT",
+              headers:{"Content-Type":"text/plain;charset=utf-8"},
+              body:typeof v==="string"?v:JSON.stringify(v)
+            }).then(function(r){ if(r&&r.ok) ok++; else fail++; }).catch(function(){ fail++; }).then(next);
+          })();
+        }catch(err){ toast("ไฟล์ไม่ถูกต้อง: "+(err.message||err)); }
+      };
+      rd.readAsText(f);e.target.value="";
+    };
+  }
+
   // init
   if(window.Auth && window.Auth.onChange){
     window.Auth.onChange(function(s){
