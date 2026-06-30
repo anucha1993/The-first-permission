@@ -28,7 +28,11 @@ const Database = require('better-sqlite3');
 
 const NODE_ENV = process.env.NODE_ENV || 'development';
 const IS_PROD  = NODE_ENV === 'production';
-const PORT = Number(process.env.PORT) || 6500;
+// PORT may be a number (standalone) or a unix-socket path (Plesk/Passenger).
+// We keep the raw value so app.listen can accept either form.
+const RAW_PORT = process.env.PORT;
+const PORT_IS_PATH = typeof RAW_PORT === 'string' && (RAW_PORT.startsWith('/') || RAW_PORT.startsWith('\\\\'));
+const PORT = PORT_IS_PATH ? RAW_PORT : (Number(RAW_PORT) || 6500);
 const HOST = process.env.HOST || '0.0.0.0';
 const ROOT = path.resolve(__dirname, '..');
 const DATA_DIR = process.env.DATA_DIR
@@ -565,12 +569,19 @@ app.use((err, _req, res, _next) => {
   }
 });
 
-app.listen(PORT, HOST, () => {
+// listen — supports both unix-socket (Passenger/Plesk) and TCP host:port (standalone)
+function onReady(addr) {
   console.log(`Thefirst Permission V1 server`);
   console.log(`  mode:     ${NODE_ENV}`);
   console.log(`  serving:  ${ROOT}  (whitelist: ${STATIC_DIRS.join(', ')})`);
   console.log(`  database: ${DB_PATH}`);
   console.log(`  trustProxy: ${TRUST_PROXY || 'off'}`);
   console.log(`  seedDefaults: ${SEED_DEFAULTS ? 'ON' : 'OFF'}`);
-  console.log(`  listen:   http://${HOST}:${PORT}/`);
-});
+  console.log(`  listen:   ${addr}`);
+}
+if (PORT_IS_PATH) {
+  // Passenger / unix socket — no host arg
+  app.listen(PORT, () => onReady(`unix:${PORT}`));
+} else {
+  app.listen(PORT, HOST, () => onReady(`http://${HOST}:${PORT}/`));
+}
